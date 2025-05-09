@@ -1,0 +1,9 @@
+groq
+python-dotenv
+datasets
+transformers
+flask
+numpy
+pandas
+tqdm
+streamlit

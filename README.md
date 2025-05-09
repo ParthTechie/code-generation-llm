@@ -19,18 +19,18 @@ A code generation tool built with Streamlit and Groq's LLM API. This project can
 
 ## Project Structure
 code-generation-llm/
-├── config/
-│   └── config.py               # Configuration settings
-├── src/
-│   ├── api/
-│   │   └── groq_client.py      # Groq API client
-│   ├── models/
-│   │   └── code_generator.py   # Code generation logic
-│   └── utils/
-│       └── web_ui.py           # Streamlit web UI
-├── .env                        # Environment variables
-├── requirements.txt            # Dependencies
-└── streamlit_app.py            # Streamlit entry point
+- config/
+  - config.py               # Configuration settings
+- src/
+   - api/
+     - groq_client.py      # Groq API client
+   - models/
+       - code_generator.py   # Code generation logic
+   - utils/
+       - web_ui.py           # Streamlit web UI
+- .env                        # Environment variables
+- requirements.txt            # Dependencies
+- streamlit_app.py            # Streamlit entry point
 
 ## Setup
 

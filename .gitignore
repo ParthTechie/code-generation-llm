@@ -1,0 +1,22 @@
+# Environment and local settings
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+.streamlit/
+.vscode/
+.idea/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Project specific
+*.log
+data/
+.DS_Store
